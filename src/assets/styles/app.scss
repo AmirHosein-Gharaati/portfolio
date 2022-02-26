@@ -6,6 +6,7 @@
 // utils
 @import "./utils/container.scss";
 @import "./utils/row.scss";
+@import "./utils/button.scss";
 
 // pages
 @import "./pages/home.scss";
@@ -56,6 +57,11 @@ section {
   border: 1px solid $white-alpha-40;
   min-height: 90vh;
   border-radius: 30px;
+  backdrop-filter: $backdrop-filter-blur;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1,
