@@ -1,6 +1,10 @@
 // variables
 @import "./variables.scss";
 
+// utils
+@import "./utils/container.scss";
+@import "./utils/row.scss";
+
 // pages
 @import "./pages/home.scss";
 
@@ -36,4 +40,16 @@ body {
     z-index: -1;
     opacity: 0.08;
   }
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+section {
+  background-color: $white-alpha-25;
+  border: 1px solid $white-alpha-40;
+  min-height: 90vh;
+  border-radius: 30px;
 }

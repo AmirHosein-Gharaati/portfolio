@@ -1,0 +1,20 @@
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.home {
+  &__text {
+    background-color: blue;
+  }
+
+  &__img {
+    background-color: green;
+  }
+
+  &__text,
+  &__img {
+    width: 50%;
+    padding: 15px;
+  }
+}
