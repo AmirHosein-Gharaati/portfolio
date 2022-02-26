@@ -24,11 +24,35 @@
       border: 1px solid $white-alpha-40;
       margin: auto;
       border-radius: 10px;
+
+      img {
+        width: 100%;
+      }
     }
   }
 
   &__text {
     width: 60%;
     padding: 0 15px;
+
+    h3 {
+      text-transform: capitalize;
+      font-size: 20px;
+      margin: 20px 0;
+    }
+  }
+
+  &__skills {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+      background-color: $white-alpha-25;
+      border: 1px solid $white-alpha-40;
+      padding: 5px 15px;
+      text-transform: capitalize;
+      margin: 0 15px 15px 0;
+      border-radius: 20px;
+    }
   }
 }

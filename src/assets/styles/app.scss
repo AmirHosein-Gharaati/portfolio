@@ -37,6 +37,7 @@
 body {
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, $pink-light, $cyan-light);
+  background-attachment: fixed;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;

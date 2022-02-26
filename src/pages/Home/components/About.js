@@ -28,13 +28,14 @@ const About = () => {
                 Various versions have evolved over the years, sometimes by
                 accident, sometimes on purpose (injected humour and the like).
               </p>
-              <h3 className="about__skills">
+              <h3>Skills</h3>
+              <div className="about__skills">
                 <div className="about__skills__item">html</div>
-                <div className="about__skills__item">html</div>
-                <div className="about__skills__item">html</div>
-                <div className="about__skills__item">html</div>
-                <div className="about__skills__item">html</div>
-              </h3>
+                <div className="about__skills__item">CSS</div>
+                <div className="about__skills__item">JavaScript</div>
+                <div className="about__skills__item">Vue</div>
+                <div className="about__skills__item">React</div>
+              </div>
             </div>
           </div>
         </div>
