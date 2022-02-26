@@ -1,0 +1,45 @@
+.works {
+  &__section {
+    padding-bottom: 50px;
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+
+    h2 {
+      font-size: 40px;
+      text-transform: capitalize;
+    }
+  }
+
+  &__item {
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px 30px;
+
+    h3 {
+      font-size: 20px;
+      text-transform: capitalize;
+      margin: 20px 0;
+    }
+
+    &__thumbnail {
+      padding: 10px;
+      background-color: $white-alpha-25;
+      border: 1px solid $white-alpha-40;
+      border-radius: 10px;
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+
+    &__details {
+      display: none;
+    }
+  }
+}
