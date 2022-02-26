@@ -4,7 +4,7 @@ const About = () => {
       <section className="about__section">
         <div className="container">
           <div className="row">
-            <div className="section__title">
+            <div className="about__title">
               <h2>About Me</h2>
             </div>
           </div>

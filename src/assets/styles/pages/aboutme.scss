@@ -1,0 +1,15 @@
+.about {
+  &__section {
+    padding: $padding-vertical 0;
+  }
+  &__title {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+
+    h2 {
+      font-size: 40px;
+      text-transform: capitalize;
+    }
+  }
+}
