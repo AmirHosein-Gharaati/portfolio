@@ -55,4 +55,56 @@
       border-radius: 20px;
     }
   }
+
+  &__tabs {
+    margin-top: 20px;
+
+    &__item {
+      padding: 2px 0;
+      background-color: transparent;
+      border: none;
+      text-transform: capitalize;
+      display: inline-block;
+      color: $blue-dark;
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: 500;
+      margin: 0 30px 0 0;
+      position: relative;
+      opacity: 0.5;
+      transition: all 0.3s ease;
+
+      &.active {
+        color: $primary;
+        opacity: 1;
+        cursor: auto;
+
+        &::before {
+          width: 100%;
+          background-color: $primary;
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0%;
+        height: 1px;
+        background-color: $blue-dark;
+        transition: width 0.3s ease;
+      }
+
+      &:hover {
+        &::before {
+          width: 100%;
+        }
+      }
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
 }

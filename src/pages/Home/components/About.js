@@ -36,6 +36,23 @@ const About = () => {
                 <div className="about__skills__item">Vue</div>
                 <div className="about__skills__item">React</div>
               </div>
+
+              <div className="about__tabs">
+                <button
+                  type="button"
+                  className="about__tabs__item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <button
+                  type="button"
+                  className="about__tabs__item"
+                  data-target="#experience"
+                >
+                  experience
+                </button>
+              </div>
             </div>
           </div>
         </div>
