@@ -1,9 +1,11 @@
+import About from "./components/About";
 import Main from "./components/Main";
 
 const Home = () => {
   return (
-    <div>
+    <div className="main">
       <Main />
+      <About />
     </div>
   );
 };

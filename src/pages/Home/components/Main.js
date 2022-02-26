@@ -2,7 +2,7 @@ const Main = () => {
   const myImage = require("../../../assets/images/me.png");
 
   return (
-    <div className="main">
+    <div>
       <section className="home__section align-center">
         <div className="container">
           <div className="row align-center">
