@@ -1,0 +1,49 @@
+.timeline {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 100%;
+    width: 1px;
+    background-color: $primary;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+    position: relative;
+    padding: 10px 0 0 40px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 11px;
+      width: 11px;
+      background-color: $primary;
+      top: 16px;
+      border-radius: 50%;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &__date {
+      display: block;
+      color: $primary;
+      font-weight: 400;
+      margin: 0 0 10px;
+    }
+
+    h4 {
+      font-size: 18px;
+      text-transform: capitalize;
+      margin: 0 0 10px;
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+}

@@ -58,7 +58,7 @@ const About = () => {
               <div className="about__tabs__content" id="education">
                 <div className="timeline">
                   <div className="timeline__item">
-                    <span className="timeline__date">2013 - 2016</span>
+                    <span className="timeline__item__date">2013 - 2016</span>
                     <h4>
                       Bachelor of Technology - <span>Shiraz university</span>
                     </h4>
@@ -70,7 +70,7 @@ const About = () => {
                     </p>
                   </div>
                   <div className="timeline__item">
-                    <span className="timeline__date">2013 - 2016</span>
+                    <span className="timeline__item__date">2013 - 2016</span>
                     <h4>
                       Bachelor of Technology - <span>Shiraz university</span>
                     </h4>
@@ -82,7 +82,7 @@ const About = () => {
                     </p>
                   </div>
                   <div className="timeline__item">
-                    <span className="timeline__date">2013 - 2016</span>
+                    <span className="timeline__item__date">2013 - 2016</span>
                     <h4>
                       Bachelor of Technology - <span>Shiraz university</span>
                     </h4>

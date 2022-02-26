@@ -61,6 +61,10 @@
   &__tabs {
     margin-top: 20px;
 
+    &__content {
+      padding: 40px 0;
+    }
+
     &__item {
       padding: 2px 0;
       background-color: transparent;
