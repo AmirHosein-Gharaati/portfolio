@@ -56,4 +56,20 @@
       margin-bottom: 20px;
     }
   }
+
+  &__general {
+    li {
+      margin-bottom: 10px;
+      font-weight: 500;
+      text-transform: capitalize;
+
+      span {
+        font-weight: 300;
+        a {
+          text-transform: lowercase;
+          color: $primary;
+        }
+      }
+    }
+  }
 }

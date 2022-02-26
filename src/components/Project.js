@@ -29,7 +29,7 @@ const Project = () => {
                 at neque felis. Sed vehicula dui sed tempor placerat.
               </p>
             </div>
-            <div className="works__item__general">
+            <div className="project__general">
               <ul>
                 <li>
                   Created - <span>4 Dec 2020</span>
