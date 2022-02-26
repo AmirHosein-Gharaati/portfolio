@@ -6,10 +6,29 @@
     padding: 0 15px;
     width: 100%;
     text-align: center;
+    margin-bottom: 40px;
 
     h2 {
       font-size: 40px;
       text-transform: capitalize;
     }
+  }
+
+  &__img {
+    width: 40%;
+    padding: 0 15px;
+
+    .img-box {
+      background-color: $white-alpha-25;
+      max-width: 380px;
+      border: 1px solid $white-alpha-40;
+      margin: auto;
+      border-radius: 10px;
+    }
+  }
+
+  &__text {
+    width: 60%;
+    padding: 0 15px;
   }
 }
