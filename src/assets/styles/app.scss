@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 // variables
 @import "./variables.scss";
 
@@ -24,6 +26,8 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, $pink-light, $cyan-light);
   font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   color: $blue-dark;
   line-height: 1.5;
   overflow-x: hidden;
@@ -52,4 +56,15 @@ section {
   border: 1px solid $white-alpha-40;
   min-height: 90vh;
   border-radius: 30px;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
