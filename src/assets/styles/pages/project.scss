@@ -1,0 +1,59 @@
+.project {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 200;
+  overflow-y: auto;
+
+  &__inner {
+    min-height: 100vh;
+    padding: 40px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__content {
+    background-color: $white-alpha-25;
+    padding: 30px;
+    border-radius: 30px;
+    max-width: 900px;
+    width: 100%;
+    border: 1px solid $white-alpha-40;
+    backdrop-filter: $backdrop-filter-blur;
+  }
+
+  &__header {
+    .btn {
+      height: 40px;
+      width: 40px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: -20px;
+      top: -20px;
+    }
+
+    h3 {
+      font-size: 25px;
+      text-transform: capitalize;
+      margin: 20px 0 15px;
+    }
+  }
+
+  &__thumbnail {
+    img {
+      border-radius: 10px;
+    }
+  }
+
+  &__body {
+    .description {
+      margin-bottom: 20px;
+    }
+  }
+}
