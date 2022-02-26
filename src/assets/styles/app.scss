@@ -1,0 +1,39 @@
+// variables
+@import "./variables.scss";
+
+// pages
+@import "./pages/home.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, $pink-light, $cyan-light);
+  font-size: 16px;
+  color: $blue-dark;
+  line-height: 1.5;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+
+  ::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $green-yellow;
+    z-index: -1;
+    opacity: 0.08;
+  }
+}
