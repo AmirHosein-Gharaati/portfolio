@@ -55,7 +55,7 @@ const About = () => {
               </div>
 
               {/* Education Start */}
-              <div className="about__tabs__content" id="education">
+              <div className="about__tabs__content active" id="education">
                 <div className="timeline">
                   <div className="timeline__item">
                     <span className="timeline__item__date">2013 - 2016</span>
@@ -95,6 +95,51 @@ const About = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Experience */}
+              <div className="about__tabs__content" id="experience">
+                <div className="timeline">
+                  <div className="timeline__item">
+                    <span className="timeline__item__date">2013 - 2016</span>
+                    <h4>
+                      Bachelor of Technology - <span>Shiraz university</span>
+                    </h4>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout. The point of using Lorem Ipsum is that it
+                      has a more-or-less normal distribution of letters
+                    </p>
+                  </div>
+                  <div className="timeline__item">
+                    <span className="timeline__item__date">2013 - 2016</span>
+                    <h4>
+                      Bachelor of Technology - <span>Shiraz university</span>
+                    </h4>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout. The point of using Lorem Ipsum is that it
+                      has a more-or-less normal distribution of letters
+                    </p>
+                  </div>
+                  <div className="timeline__item">
+                    <span className="timeline__item__date">2013 - 2016</span>
+                    <h4>
+                      Bachelor of Technology - <span>Shiraz university</span>
+                    </h4>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout. The point of using Lorem Ipsum is that it
+                      has a more-or-less normal distribution of letters
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="#" className="btn">Download cv</a>
+              <a href="#" className="btn">Contact me</a>
             </div>
           </div>
         </div>
