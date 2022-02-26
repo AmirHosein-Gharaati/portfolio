@@ -1,5 +1,5 @@
-const Main = () => {
-  const myImage = require("../../../assets/images/me.png");
+const Home = () => {
+  const myImage = require("../assets/images/me.png");
 
   return (
     <div>
@@ -29,4 +29,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;

@@ -1,5 +1,5 @@
 const About = () => {
-  const image = require("../../../assets/images/me.png");
+  const image = require("../assets/images/me.png");
   return (
     <div>
       <section className="about__section">
