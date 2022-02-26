@@ -23,6 +23,16 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  &-track {
+    background-color: white;
+  }
+  &-thumb {
+    background-color: $primary;
+  }
+}
+
 body {
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, $pink-light, $cyan-light);
