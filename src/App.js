@@ -4,11 +4,13 @@ import Works from "./pages/Works";
 import Project from "./components/Project";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
+import BgCircles from "./components/BgCircles";
 
 function App() {
   return (
     <div className="main">
       <Navbar />
+      <BgCircles />
       <Home />
       {/* <About /> */}
       {/* <Works /> */}

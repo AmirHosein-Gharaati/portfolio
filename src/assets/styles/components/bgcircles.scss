@@ -1,0 +1,72 @@
+.bg-cricles {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  max-width: 1200px;
+  width: calc(100% - 30px);
+  transform: translateX(-50%);
+
+  div {
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .circle-1 {
+    height: 60px;
+    width: 60px;
+    background-color: $blue;
+    left: 5%;
+    top: 10%;
+    opacity: 0.3;
+    animation: zoomInOut 8s linear infinite;
+  }
+
+  .circle-2 {
+    width: 80px;
+    height: 80px;
+    background-color: $primary;
+    left: 30%;
+    top: 50%;
+    opacity: 0.4;
+    animation: bounceTop 5s linear infinite;
+  }
+
+  .circle-3 {
+    height: 120px;
+    width: 120px;
+    background-color: $white;
+    top: 40%;
+    right: -60px;
+    opacity: 0.6;
+  }
+
+  .circle-4 {
+    height: 50px;
+    width: 50px;
+    background-color: $orange;
+    top: 80%;
+    left: -30px;
+    opacity: 0.6;
+  }
+}
+
+@keyframes zoomInOut {
+  0%,
+  100% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceTop {
+  0%,
+  100% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
