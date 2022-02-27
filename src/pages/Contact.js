@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faHome } from "@fortawesome/free-solid-svg-icons";
+
 const Contact = () => {
   return (
     <div className="contact">
@@ -64,22 +67,10 @@ const Contact = () => {
                 <h3>Follow Me</h3>
                 <div className="contact__social-links">
                   <a href="#" target="_blank">
-                    <i className="fab fa-facebook-f"></i>
+                    <FontAwesomeIcon icon={faCoffee} />
                   </a>
                   <a href="#" target="_blank">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="#" target="_blank">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                  <a href="#" target="_blank">
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                  <a href="#" target="_blank">
-                    <i className="fab fa-behance"></i>
-                  </a>
-                  <a href="#" target="_blank">
-                    <i className="fab fa-dribble"></i>
+                    <FontAwesomeIcon icon={faHome} />
                   </a>
                 </div>
               </div>
