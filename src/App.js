@@ -3,15 +3,17 @@ import About from "./pages/About";
 import Works from "./pages/Works";
 import Project from "./components/Project";
 import Contact from "./pages/Contact";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="main">
-      {/* <Home /> */}
+      <Navbar />
+      <Home />
       {/* <About /> */}
       {/* <Works /> */}
       {/* <Project /> */}
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
