@@ -19,10 +19,11 @@
     &::before {
       content: "";
       position: absolute;
+      top: 16px;
+      left: 0;
       height: 11px;
       width: 11px;
       background-color: $primary;
-      top: 16px;
       border-radius: 50%;
     }
 
