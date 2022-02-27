@@ -66,6 +66,8 @@
     width: 100%;
     opacity: 0.5;
     padding: 35px 15px;
+    overflow-y: auto;
+    visibility: hidden;
 
     &__inner {
       min-height: calc(100vh - 70px);
