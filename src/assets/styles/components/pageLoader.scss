@@ -1,0 +1,50 @@
+.page-loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  background-color: $white-alpha-25;
+  backdrop-filter: $backdrop-filter-blur;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.6s ease;
+
+  div {
+    border: 2px solid transparent;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.6;
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+    animation: spin 1s linear infinite;
+
+    &:nth-child(1) {
+      height: 60px;
+      width: 60px;
+      border-color: $primary;
+    }
+    &:nth-child(2) {
+      height: 45px;
+      width: 45px;
+      border-color: $blue;
+      animation: spin 1.2s linear infinite;
+    }
+    &:nth-child(3) {
+      width: 30px;
+      height: 30px;
+      border-color: $orange;
+    }
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
