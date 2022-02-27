@@ -3,7 +3,7 @@ const Navbar = () => {
     <header className="navbar">
       <div className="container">
         <div className="row flex-end">
-          <button type="button" className="navbar__toggler">
+          <button type="button" className="navbar__toggler active">
               <span></span>
           </button>
           <nav className="nav">

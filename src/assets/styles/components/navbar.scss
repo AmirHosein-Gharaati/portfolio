@@ -20,6 +20,18 @@
     margin: 0 15px;
     z-index: 1;
 
+    &.active {
+      span {
+        background-color: transparent;
+        &::before {
+          transform: rotate(45deg);
+        }
+        &::after {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+
     span {
       height: 2px;
       width: 24px;
@@ -49,10 +61,12 @@
     }
 
     &:hover {
-      span {
-        &::before,
-        &::after {
-          width: 50%;
+      &:not(.active) {
+        span {
+          &::before,
+          &::after {
+            width: 50%;
+          }
         }
       }
     }
