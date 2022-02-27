@@ -52,6 +52,7 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
+  padding: 35px 15px;
 
   &::before {
     content: "";
@@ -75,7 +76,7 @@ img {
 section {
   background-color: $white-alpha-25;
   border: 1px solid $white-alpha-40;
-  min-height: 90vh;
+  min-height: calc(100vh - 70px);
   border-radius: 30px;
   backdrop-filter: $backdrop-filter-blur;
 }
@@ -102,4 +103,11 @@ button {
 
 ul {
   list-style: none;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+  transition: all 0.3s ease;
+  position: relative;
 }

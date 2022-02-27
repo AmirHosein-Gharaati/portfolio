@@ -6,6 +6,16 @@ const Navbar = () => {
           <button type="button" className="navbar__toggler">
               <span></span>
           </button>
+          <nav className="nav">
+            <div className="nav__inner">
+              <ul>
+                <li> <a href="#" className="nav__item">home</a></li>
+                <li> <a href="#" className="nav__item">about</a></li>
+                <li> <a href="#" className="nav__item">portfolio</a></li>
+                <li> <a href="#" className="nav__item">contact</a></li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
     </header>
