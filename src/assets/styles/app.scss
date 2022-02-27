@@ -53,7 +53,7 @@ body {
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
 
-  ::before {
+  &::before {
     content: "";
     position: fixed;
     left: 0;
