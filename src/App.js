@@ -24,13 +24,15 @@ function App() {
         <Navbar />
         <BgCircles />
         {isLoading && <PageLoader />}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/works" element={<Works />} />
-          <Route path="/works/:id" element={<Project />} />
-        </Routes>
+        <div className="main__content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/works" element={<Works />} />
+            <Route path="/works/:id" element={<Project />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </div>
   );

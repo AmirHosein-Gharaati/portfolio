@@ -2,28 +2,18 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [navOpen, setNavOpen] = useState(false);
-
-  const navbarClasses = () => {
-    if (navOpen) {
-      return "nav";
-    } else {
-      return "nav v-hidden";
-    }
-  };
 
   return (
     <header className="navbar">
       <div className="container">
-        <div className="row flex-end">
+        <div className="row">
           <button
             type="button"
             className="navbar__toggler"
-            onClick={() => setNavOpen(!navOpen)}
           >
             <span></span>
           </button>
-          <nav className={navbarClasses()}>
+          <nav className="nav">
             <div className="nav__inner">
               <ul>
                 <li>

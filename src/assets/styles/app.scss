@@ -112,4 +112,8 @@ ul {
   margin: auto;
   transition: all 0.3s ease;
   position: relative;
+
+  &__content {
+    padding-top: 60px;
+  }
 }
