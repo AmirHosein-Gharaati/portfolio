@@ -12,8 +12,8 @@ const Home = () => {
               <p>Hello, I'm</p>
               <h1>Amirhosein Gharaati</h1>
               <h2>Frontend Developer</h2>
-              <Link to="/about">
-                <a className="btn">More About Me</a>
+              <Link className="btn" to="/about">
+                More About Me
               </Link>
               <a
                 href="https://drive.google.com/file/d/1WTmP7O4shaqP0ZVCUHuFcHERulcZZTUv/view?usp=sharing"
