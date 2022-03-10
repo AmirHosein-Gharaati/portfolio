@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Works = () => {
   return (
     <div>
@@ -9,7 +11,7 @@ const Works = () => {
             </div>
           </div>
           <div className="row">
-            <div className="works__item">
+            <div className="works__item" id="test">
               <div className="works__item__thumbnail">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
@@ -17,9 +19,10 @@ const Works = () => {
                 />
               </div>
               <h3 className="works__item__title">Education Course Website</h3>
-              <button type="button" className="btn">
+              <Link className="btn" to="test">
                 view project
-              </button>
+              </Link>
+
               <div className="works__item__details">
                 <div className="description">
                   <p>
