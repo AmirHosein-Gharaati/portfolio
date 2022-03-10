@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
   const myImage = require("../assets/images/me.png");
 
@@ -10,10 +12,15 @@ const Home = () => {
               <p>Hello, I'm</p>
               <h1>Amirhosein Gharaati</h1>
               <h2>Frontend Developer</h2>
-              <a href="https://google.com" className="btn">
-                More About Me
-              </a>
-              <a href="https://google.com" className="btn">
+              <Link to="/about">
+                <a className="btn">More About Me</a>
+              </Link>
+              <a
+                href="https://drive.google.com/file/d/1WTmP7O4shaqP0ZVCUHuFcHERulcZZTUv/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Portfolio
               </a>
             </div>
