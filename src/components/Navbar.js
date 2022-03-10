@@ -34,14 +34,9 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://drive.google.com/file/d/1WTmP7O4shaqP0ZVCUHuFcHERulcZZTUv/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="nav__item"
-                  >
-                    portfolio
-                  </a>
+                  <Link className={getClasses("/works")} to="/works">
+                    Works
+                  </Link>
                 </li>
                 <li>
                   <Link className={getClasses("/contact")} to="/contact">

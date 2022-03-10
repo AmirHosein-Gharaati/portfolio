@@ -15,14 +15,9 @@ const Home = () => {
               <Link className="btn" to="/about">
                 More About Me
               </Link>
-              <a
-                href="https://drive.google.com/file/d/1WTmP7O4shaqP0ZVCUHuFcHERulcZZTUv/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-                className="btn"
-              >
+              <Link className="btn" to="/works">
                 Portfolio
-              </a>
+              </Link>
             </div>
             <div className="home__img">
               <div className="img-box">

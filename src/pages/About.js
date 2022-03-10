@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const About = () => {
   const image = require("../assets/images/me.png");
   return (
@@ -138,8 +140,10 @@ const About = () => {
                 </div>
               </div>
 
-              <a href="#" className="btn">Download cv</a>
-              <a href="#" className="btn">Contact me</a>
+              <a href="#" className="btn">
+                Download cv
+              </a>
+              <Link className="btn" to="/contact">Contact me</Link>
             </div>
           </div>
         </div>
