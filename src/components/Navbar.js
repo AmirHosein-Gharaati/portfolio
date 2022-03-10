@@ -1,7 +1,20 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+
+  const getClasses = (stringPath) => {
+    const currentPath = location.pathname;
+    let classes = "nav__item ";
+
+    if (stringPath === currentPath) {
+      classes += " nav__item-active ";
+    }
+
+    return classes;
+  };
+
   return (
     <header className="navbar">
       <div className="container">
@@ -11,19 +24,16 @@ const Navbar = () => {
             <div className="nav__items">
               <ul>
                 <li>
-                  {" "}
-                  <Link to="/">
-                    <a className="nav__item nav__item-active">home</a>
-                  </Link>{" "}
-                </li>
-                <li>
-                  {" "}
-                  <Link to="/about">
-                    <a className="nav__item">about</a>
+                  <Link className={getClasses("/")} to="/">
+                    home
                   </Link>
                 </li>
                 <li>
-                  {" "}
+                  <Link className={getClasses("/about")} to="/about">
+                    about
+                  </Link>
+                </li>
+                <li>
                   <a
                     href="https://drive.google.com/file/d/1WTmP7O4shaqP0ZVCUHuFcHERulcZZTUv/view?usp=sharing"
                     target="_blank"
@@ -34,9 +44,8 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  {" "}
-                  <Link to="/contact">
-                    <a className="nav__item">contact</a>
+                  <Link className={getClasses("/contact")} to="/contact">
+                    contact
                   </Link>
                 </li>
               </ul>
