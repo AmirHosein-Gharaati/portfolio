@@ -7,12 +7,6 @@ const Navbar = () => {
     <header className="navbar">
       <div className="container">
         <div className="row">
-          <button
-            type="button"
-            className="navbar__toggler"
-          >
-            <span></span>
-          </button>
           <nav className="nav">
             <div className="nav__inner">
               <ul>
