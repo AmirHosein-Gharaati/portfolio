@@ -1,7 +1,23 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const About = () => {
   const image = require("../assets/images/me.png");
+
+  const [currentActive, setCurrentActive] = useState("education");
+
+  const getClassTab = (tabName) => {
+    let classes = "about__tabs__content ";
+    if (!(tabName === currentActive)) classes += " hidden ";
+    return classes;
+  };
+
+  const getButtonClass = (buttonName) => {
+    let classes = "about__tabs__item ";
+    if (buttonName === currentActive) classes += " active ";
+    return classes;
+  };
+
   return (
     <div>
       <section className="about__section">
@@ -42,22 +58,22 @@ const About = () => {
               <div className="about__tabs">
                 <button
                   type="button"
-                  className="about__tabs__item active"
-                  data-target="#education"
+                  className={getButtonClass("education")}
+                  onClick={() => setCurrentActive("education")}
                 >
                   education
                 </button>
                 <button
                   type="button"
-                  className="about__tabs__item"
-                  data-target="#experience"
+                  className={getButtonClass("experience")}
+                  onClick={() => setCurrentActive("experience")}
                 >
                   experience
                 </button>
               </div>
 
               {/* Education Start */}
-              <div className="about__tabs__content active" id="education">
+              <div className={getClassTab("education")}>
                 <div className="timeline">
                   <div className="timeline__item">
                     <span className="timeline__item__date">2013 - 2016</span>
@@ -99,36 +115,12 @@ const About = () => {
               </div>
 
               {/* Experience */}
-              <div className="about__tabs__content" id="experience">
+              <div className={getClassTab("experience")}>
                 <div className="timeline">
                   <div className="timeline__item">
                     <span className="timeline__item__date">2013 - 2016</span>
                     <h4>
-                      Bachelor of Technology - <span>Shiraz university</span>
-                    </h4>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters
-                    </p>
-                  </div>
-                  <div className="timeline__item">
-                    <span className="timeline__item__date">2013 - 2016</span>
-                    <h4>
-                      Bachelor of Technology - <span>Shiraz university</span>
-                    </h4>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters
-                    </p>
-                  </div>
-                  <div className="timeline__item">
-                    <span className="timeline__item__date">2013 - 2016</span>
-                    <h4>
-                      Bachelor of Technology - <span>Shiraz university</span>
+                      TurkCrypto - <span>Shiraz university</span>
                     </h4>
                     <p>
                       It is a long established fact that a reader will be
@@ -143,7 +135,9 @@ const About = () => {
               <a href="#" className="btn">
                 Download cv
               </a>
-              <Link className="btn" to="/contact">Contact me</Link>
+              <Link className="btn" to="/contact">
+                Contact me
+              </Link>
             </div>
           </div>
         </div>
