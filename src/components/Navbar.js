@@ -2,18 +2,18 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
   return (
     <header className="navbar">
       <div className="container">
         <div className="row">
           <nav className="nav">
-            <div className="nav__inner">
+            <div className="nav__logo">AG</div>
+            <div className="nav__items">
               <ul>
                 <li>
                   {" "}
                   <Link to="/">
-                    <a className="nav__item">home</a>
+                    <a className="nav__item nav__item-active">home</a>
                   </Link>{" "}
                 </li>
                 <li>
