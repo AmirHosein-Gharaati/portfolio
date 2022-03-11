@@ -1,11 +1,15 @@
 .contact {
-  padding: 40px;
+  margin: 40px 0;
+
+  &__section {
+    padding-bottom: 40px;
+  }
 
   &__title {
     padding: 0 15px;
+    margin: 40px 0;
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
 
     h2 {
       font-size: 40px;
