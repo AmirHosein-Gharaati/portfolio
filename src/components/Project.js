@@ -1,3 +1,4 @@
+import ReactMarkdown from "react-markdown";
 import { useParams } from "react-router-dom";
 import workData from "../data/data.json";
 
@@ -20,7 +21,7 @@ const Project = () => {
           </div>
           <div className="project__body">
             <div className="description">
-              <p>{project[0].text}</p>
+              <ReactMarkdown>{project[0].text}</ReactMarkdown>
             </div>
             <div className="project__general">
               <ul>
