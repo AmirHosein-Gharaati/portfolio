@@ -14,7 +14,6 @@
     background-color: $white-alpha-25;
     padding: 30px;
     border-radius: 30px;
-    max-width: 900px;
     width: 100%;
     border: 1px solid $white-alpha-40;
     backdrop-filter: $backdrop-filter-blur;
@@ -29,8 +28,12 @@
   }
 
   &__thumbnail {
+    display: flex;
+    justify-content: center;
+
     img {
       border-radius: 10px;
+      max-width: 50%;
     }
   }
 
