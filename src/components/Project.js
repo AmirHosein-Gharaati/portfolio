@@ -4,9 +4,6 @@ const Project = () => {
       <div className="project__inner">
         <div className="project__content">
           <div className="project__header">
-            <button type="button" className="btn">
-              <i className="fa fa-times"></i>
-            </button>
             <div className="project__thumbnail">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"

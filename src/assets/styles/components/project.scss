@@ -1,11 +1,6 @@
 .project {
-  position: fixed;
-  left: 0;
-  top: 0;
   height: 100%;
   width: 100%;
-  z-index: 200;
-  overflow-y: auto;
 
   &__inner {
     min-height: 100vh;
@@ -26,18 +21,6 @@
   }
 
   &__header {
-    .btn {
-      height: 40px;
-      width: 40px;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      right: -20px;
-      top: -20px;
-    }
-
     h3 {
       font-size: 25px;
       text-transform: capitalize;
