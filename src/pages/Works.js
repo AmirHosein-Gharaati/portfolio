@@ -20,7 +20,7 @@ const Works = () => {
                   <img src={work.imageUrl} alt="" />
                 </div>
                 <h3 className="works__item__title">{work.title}</h3>
-                <Link className="btn" to="test">
+                <Link className="btn" to={work.id}>
                   view project
                 </Link>
               </div>

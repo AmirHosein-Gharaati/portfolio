@@ -3,7 +3,7 @@ import workData from "../data/data.json";
 
 const Project = () => {
   const { id } = useParams();
-  const project = workData.filter((element) => element.id == id);
+  const project = workData.filter((element) => element.id === id);
   if (!project) {
     // print 404
   }
