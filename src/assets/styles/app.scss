@@ -34,12 +34,13 @@
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
   &-track {
     background-color: white;
   }
   &-thumb {
     background-color: $primary;
+    border-radius: 10px;
   }
 }
 
