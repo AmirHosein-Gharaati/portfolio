@@ -20,5 +20,16 @@
             "Technologies": "Adobe XD",
             "Role": "UI/UX Designer"
         }
+    },
+    {
+        "id": "3",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1V_6oK6T0q2MLyhLOH8c2PI0ebGft6cVM",
+        "title": "Sess semester web application",
+        "text": "A front-end website which manages crawled data from Shiraz University term semester website.",
+        "metadata": {
+            "Created": "Mar 12, 2022",
+            "Technologies": "Vue.js, Vuetify.js",
+            "Role": "Frontend"
+        }
     }
 ]
