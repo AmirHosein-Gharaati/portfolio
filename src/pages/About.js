@@ -37,22 +37,19 @@ const About = ({ title }) => {
             </div>
             <div className="about__text">
               <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English. Many
-                desktop publishing packages and web page editors now use Lorem
-                Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
-                Various versions have evolved over the years, sometimes by
-                accident, sometimes on purpose (injected humour and the like).
+                Hello. I'm Amirhosein Gharaati. A frontend developer with 1 year
+                of experience who is trying to learn different things about
+                Computer Science. I always like to encounter different
+                challenges and solve the problems in efficient way. Also I have
+                some experience in competitive programming which helps think and
+                solve real world problems in a better way.
               </p>
               <h3>Skills</h3>
               <div className="about__skills">
                 <div className="about__skills__item">html</div>
                 <div className="about__skills__item">CSS</div>
                 <div className="about__skills__item">JavaScript</div>
+                <div className="about__skills__item">TypeScript</div>
                 <div className="about__skills__item">Vue</div>
                 <div className="about__skills__item">React</div>
               </div>
