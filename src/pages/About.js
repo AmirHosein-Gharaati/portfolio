@@ -156,6 +156,16 @@ const About = ({ title }) => {
                       A front-end website which manages crawled data from Shiraz
                       University term semester website.
                     </p>
+                    <p className="bold">
+                      Repo:{" "}
+                      <a
+                        href="https://github.com/AmirHosein-Gharaati/sess-semester"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        sess-semester
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>
