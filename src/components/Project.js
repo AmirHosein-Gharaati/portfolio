@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import { useParams } from "react-router-dom";
 import workData from "../data/data.json";
+import { changeTitle } from "../helper/title";
 
 const Project = () => {
   const { id } = useParams();
@@ -8,6 +9,8 @@ const Project = () => {
   if (!project) {
     // print 404
   }
+
+  changeTitle(project[0].title);
 
   return (
     <div className="project">
