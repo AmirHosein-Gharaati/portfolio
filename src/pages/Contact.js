@@ -5,6 +5,8 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+
 const Contact = () => {
   return (
     <div className="contact">
@@ -93,6 +95,14 @@ const Contact = () => {
                     className="contact__social-links__item"
                   >
                     <FontAwesomeIcon icon={faTwitter} />
+                  </a>
+                  <a
+                    href="mailto:amirgh1380@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="contact__social-links__item"
+                  >
+                    <FontAwesomeIcon icon={faMailBulk} />
                   </a>
                 </div>
               </div>
