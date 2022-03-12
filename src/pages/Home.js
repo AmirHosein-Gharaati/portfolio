@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+import { changeTitle } from "../helper/title";
 
 const Home = ({ title }) => {
-  document.title = `${title} | Amirhosein Gharaati`;
+  changeTitle(title);
 
   const myImage = require("../assets/images/me.png");
 
