@@ -12,7 +12,7 @@ const Works = () => {
             <h2>Recent Work</h2>
           </div>
         </div>
-        <div className="row">
+        <div className="works__content">
           {data.map((work) => {
             return (
               <div className="works__item" key={work.id}>
