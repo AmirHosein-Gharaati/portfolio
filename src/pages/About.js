@@ -75,39 +75,26 @@ const About = ({ title }) => {
               <div className={getClassTab("education")}>
                 <div className="timeline">
                   <div className="timeline__item">
-                    <span className="timeline__item__date">2013 - 2016</span>
+                    <span className="timeline__item__date">2020 - Present</span>
                     <h4>
-                      Bachelor of Technology - <span>Shiraz university</span>
+                      Bachelor of Science - <span>Shiraz university</span>
                     </h4>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters
+                      Shiraz University is one of the top universities in iran.
+                      I am currently studying Computer Engineering. My current
+                      GPA is 17.11/20 which is among top 5 students.
                     </p>
                   </div>
                   <div className="timeline__item">
-                    <span className="timeline__item__date">2013 - 2016</span>
+                    <span className="timeline__item__date">2018 - 2020</span>
                     <h4>
-                      Bachelor of Technology - <span>Shiraz university</span>
+                      Diploma in Mathematics-Physics -{" "}
+                      <span>Shahid Dastgheib</span>
                     </h4>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters
-                    </p>
-                  </div>
-                  <div className="timeline__item">
-                    <span className="timeline__item__date">2013 - 2016</span>
-                    <h4>
-                      Bachelor of Technology - <span>Shiraz university</span>
-                    </h4>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters
+                      I chose Mathematics-Physics field to continue my study in
+                      Computer Engineering major. Studying in Shahid Dastgheib
+                      school was a great experience to learn and improve.
                     </p>
                   </div>
                 </div>
