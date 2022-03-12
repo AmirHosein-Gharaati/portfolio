@@ -26,7 +26,7 @@ function App() {
         {isLoading && <PageLoader />}
         <div className="main__content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home title="Home" />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/works" element={<Works />} />

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const Home = ({ title }) => {
+  document.title = `${title} | Amirhosein Gharaati`;
+
   const myImage = require("../assets/images/me.png");
 
   return (
