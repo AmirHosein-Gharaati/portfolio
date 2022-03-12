@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="nav__icon">
           <FontAwesomeIcon icon={faHamburger} />
         </div>
-        <div className="nav__items">
+        <div className="nav__items nav__open">
           <ul>
             <li>
               <Link className={getClasses("/")} to="/">

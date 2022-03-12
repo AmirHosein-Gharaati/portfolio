@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 $padding-h*2;
+    padding: 0 $padding-h * 2;
 
     &__icon {
       display: none;
@@ -69,20 +69,36 @@
   .navbar {
     .nav {
       background-color: green;
+
       &__icon {
         display: inline;
       }
 
       &__items {
-        position: absolute;
-        right: -100px;
+        position: fixed;
+        right: 0;
         top: 0;
         height: 100vh;
-        background-color: red;
+        background-color: $white-alpha-40;
+        transition: right 0.2s ease;
 
         ul {
+          margin-top: $padding-h*2;
+          height: 100%;
+          width: 100%;
+          display: flex;
           flex-direction: column;
+          align-items: center;
+          flex-direction: column;
+
+          li {
+            margin: $padding-h 0;
+          }
         }
+      }
+      
+      &__open {
+        right: -200px !important;
       }
     }
   }
