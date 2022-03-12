@@ -17,6 +17,10 @@
     }
   }
 
+  &__content {
+    display: flex;
+  }
+
   &__form,
   &__info {
     width: 50%;
@@ -95,6 +99,28 @@
 
       &:focus {
         border-color: $white-alpha-40;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: $bp-x-small) {
+  .contact {
+    &__content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__info {
+      order: 1;
+      width: 100%;
+    }
+
+    &__form {
+      order: 2;
+      width: 100%;
+      button {
+        width: 100%;
       }
     }
   }

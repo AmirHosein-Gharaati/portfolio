@@ -18,7 +18,7 @@ const Contact = () => {
               <h2>Contact Me</h2>
             </div>
           </div>
-          <div className="row">
+          <div className="contact__content">
             <div className="contact__form">
               <form>
                 <div className="row">
@@ -53,11 +53,9 @@ const Contact = () => {
                       required
                     />
                   </div>
-                  <div className="submit-btn">
-                    <button type="submit" className="btn">
-                      Send Message
-                    </button>
-                  </div>
+                  <button type="submit" className="btn">
+                    Send Message
+                  </button>
                 </div>
               </form>
             </div>
