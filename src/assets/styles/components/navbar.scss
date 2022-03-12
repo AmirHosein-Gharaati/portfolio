@@ -14,11 +14,17 @@
   align-items: center;
 
   .nav {
+    position: relative;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 $padding-h*2;
+
+    &__icon {
+      display: none;
+    }
 
     &__logo {
       font-size: 40px;
@@ -54,6 +60,29 @@
       &-active {
         background-color: $primary;
         color: white !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $bp-x-small) {
+  .navbar {
+    .nav {
+      background-color: green;
+      &__icon {
+        display: inline;
+      }
+
+      &__items {
+        position: absolute;
+        right: -100px;
+        top: 0;
+        height: 100vh;
+        background-color: red;
+
+        ul {
+          flex-direction: column;
+        }
       }
     }
   }
