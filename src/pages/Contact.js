@@ -19,9 +19,11 @@ const Contact = ({ title }) => {
   const [subject, setSubject] = useState("");
   const [text, setText] = useState("");
 
-  const [messageSent, setMessageSent] = useState(false);
+  const [messageStatus, setMessageStatus] = useState(null);
 
   const sendMessage = (e) => {
+    e.preventDefault();
+
     if (!name || !email || !subject || !text) return;
 
     const data = {
@@ -31,10 +33,20 @@ const Contact = ({ title }) => {
       text: text,
     };
 
+    setMessageStatus("Pending...");
+
     axios
       .post("/", data)
-      .then((res) => {})
-      .catch((err) => console.error(err.message));
+      .then((res) => {
+        setMessageStatus("Sent Successfully");
+        setTimeout(() => {
+          setMessageStatus(null);
+        }, 3000);
+      })
+      .catch((err) => {
+        setMessageStatus("Failed");
+        console.error(err.message);
+      });
   };
 
   return (
@@ -97,6 +109,9 @@ const Contact = ({ title }) => {
                     Send Message
                   </button>
                 </div>
+                {messageStatus !== null && (
+                  <p className="contact__status">{messageStatus}</p>
+                )}
               </form>
             </div>
             <div className="contact__info">
