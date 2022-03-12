@@ -1,11 +1,27 @@
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHamburger, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const Navbar = () => {
   const location = useLocation();
   const [navIsOpen, setNavIsOpen] = useState(false);
+
+  const navRef = useRef();
+
+  useEffect(() => {
+    const checkIfClickedOutside = (e) => {
+      if (navIsOpen && navRef.current && !navRef.current.contains(e.target)) {
+        setNavIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", checkIfClickedOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", checkIfClickedOutside);
+    };
+  }, [navIsOpen]);
 
   const getClasses = (stringPath) => {
     const currentPath = location.pathname;
@@ -26,7 +42,7 @@ const Navbar = () => {
 
   return (
     <header className="navbar">
-      <nav className="nav">
+      <nav ref={navRef} className="nav">
         <div className="nav__logo">AG</div>
         <div
           className={navIsOpen ? "nav__icon nav__icon__close" : "nav__icon"}
