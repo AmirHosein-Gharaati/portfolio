@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import workData from "../data/data.json";
 import { changeTitle } from "../helper/title";
 
-const Works = ({title}) => {
+const Works = ({ title }) => {
   changeTitle(title);
   const data = workData;
 
@@ -22,6 +22,9 @@ const Works = ({title}) => {
                   <img src={work.imageUrl} alt="" />
                 </div>
                 <h3 className="works__item__title">{work.title}</h3>
+                {work.metadata.Technologies && (
+                  <span className="bold">{work.metadata.Technologies}</span>
+                )}
                 <Link className="btn" to={work.id}>
                   view project
                 </Link>

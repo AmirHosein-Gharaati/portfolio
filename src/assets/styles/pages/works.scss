@@ -23,6 +23,10 @@
   &__item {
     width: calc((100% / 3) - 30px);
     margin: 0 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
 
     h3 {
       font-size: 20px;
