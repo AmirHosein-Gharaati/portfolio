@@ -167,6 +167,46 @@ const About = ({ title }) => {
                       </a>
                     </p>
                   </div>
+
+                  <div className="timeline__item">
+                    <span className="timeline__item__date">
+                      Apr 2021 – Sep 2021
+                    </span>
+                    <h4>Head of IT Team at Hour Of Code (HOC)</h4>
+                    <p>
+                      HOC is an all-day event held by computer engineering
+                      students at Shiraz University to familiarize high school
+                      students with coding. However, the event was held online
+                      due to COVID-19 and our team developed a new{" "}
+                      <a
+                        href="https://hocshirazu.ir/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Website
+                      </a>{" "}
+                      and{" "}
+                      <a
+                        href="https://github.com/AmirHosein-Gharaati/HOC-Game"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Game
+                      </a>{" "}
+                      for the event.
+                    </p>
+                  </div>
+
+                  <div className="timeline__item">
+                    <span className="timeline__item__date">
+                      Oct 2020 – Feb 2021
+                    </span>
+                    <h4>Member of Association for Computing Machinery</h4>
+                    <p>
+                      Holding several different workshops including AI and
+                      Telegram-bot development.
+                    </p>
+                  </div>
                 </div>
               </div>
 
