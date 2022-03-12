@@ -94,7 +94,7 @@ const About = ({ title }) => {
                     </h4>
                     <p>
                       I chose Mathematics-Physics field to continue my study in
-                      Computer Engineering major. Studying in Shahid Dastgheib
+                      Computer Engineering. Studying in Shahid Dastgheib
                       school was a great experience to learn and improve.
                     </p>
                   </div>
