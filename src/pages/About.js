@@ -27,7 +27,7 @@ const About = () => {
               <h2>About Me</h2>
             </div>
           </div>
-          <div className="row">
+          <div className="about__content">
             <div className="about__img">
               <div className="img-box">
                 <img src={image} alt="about img" />

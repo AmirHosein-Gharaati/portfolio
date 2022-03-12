@@ -4,6 +4,10 @@
     margin: 32px 0;
   }
 
+  &__content {
+    display: flex;
+  }
+
   &__title {
     padding: 0 15px;
     width: 100%;
