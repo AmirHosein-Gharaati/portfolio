@@ -8,9 +8,15 @@ import {
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { changeTitle } from "../helper/title";
+import { useState } from "react";
 
 const Contact = ({ title }) => {
   changeTitle(title);
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [text, setText] = useState("");
 
   return (
     <div className="contact">
@@ -29,6 +35,8 @@ const Contact = ({ title }) => {
                     <input
                       type="text"
                       placeholder="Name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                       className="contact__input-control"
                       required
                     />
@@ -37,6 +45,8 @@ const Contact = ({ title }) => {
                     <input
                       type="text"
                       placeholder="Email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       className="contact__input-control"
                       required
                     />
@@ -45,6 +55,8 @@ const Contact = ({ title }) => {
                     <input
                       type="text"
                       placeholder="Subject"
+                      value={subject}
+                      onChange={(e) => setSubject(e.target.value)}
                       className="contact__input-control"
                       required
                     />
@@ -53,6 +65,8 @@ const Contact = ({ title }) => {
                     <textarea
                       placeholder="Message"
                       className="contact__input-control"
+                      value={text}
+                      onChange={(e) => setText(e.target.value)}
                       required
                     />
                   </div>
