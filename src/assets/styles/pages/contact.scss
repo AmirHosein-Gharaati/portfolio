@@ -37,18 +37,18 @@
   }
 
   &__social-links {
-    a {
+    &__item {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      height: 40px;
-      width: 40px;
+      padding: $padding-h/2;
       background-color: $white-alpha-25;
       border: 1px solid $white-alpha-40;
       color: $primary;
       border-radius: 50%;
       margin: 6px 4px 0 0;
       transition: all 0.3s ease;
+      cursor: pointer;
 
       &:hover {
         color: white;

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faHome } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   return (
@@ -66,12 +66,10 @@ const Contact = () => {
               <div className="contact__info__item">
                 <h3>Follow Me</h3>
                 <div className="contact__social-links">
-                  <a href="#" target="_blank">
-                    <FontAwesomeIcon icon={faCoffee} />
-                  </a>
-                  <a href="#" target="_blank">
-                    <FontAwesomeIcon icon={faHome} />
-                  </a>
+                  <FontAwesomeIcon
+                    className="contact__social-links__item"
+                    icon={faTwitter}
+                  />
                 </div>
               </div>
             </div>
