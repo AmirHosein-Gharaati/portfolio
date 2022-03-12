@@ -41,7 +41,6 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      padding: $padding-h/2;
       background-color: $white-alpha-25;
       border: 1px solid $white-alpha-40;
       color: $primary;
@@ -49,6 +48,13 @@
       margin: 6px 4px 0 0;
       transition: all 0.3s ease;
       cursor: pointer;
+      width: 40px;
+      height: 40px;
+
+      svg {
+        width: 25px;
+        height: 25px;
+      }
 
       &:hover {
         color: white;

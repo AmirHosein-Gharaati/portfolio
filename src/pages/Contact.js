@@ -1,5 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   return (
@@ -66,10 +70,30 @@ const Contact = () => {
               <div className="contact__info__item">
                 <h3>Follow Me</h3>
                 <div className="contact__social-links">
-                  <FontAwesomeIcon
+                  <a
+                    href="https://www.linkedin.com/in/amirhosein-gharaati-6b39781b7/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="contact__social-links__item"
-                    icon={faTwitter}
-                  />
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} />
+                  </a>
+                  <a
+                    href="https://github.com/AmirHosein-Gharaati"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="contact__social-links__item"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                  <a
+                    href="https://twitter.com/AG_1380"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="contact__social-links__item"
+                  >
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </a>
                 </div>
               </div>
             </div>
