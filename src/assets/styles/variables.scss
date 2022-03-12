@@ -13,7 +13,11 @@ $white-alpha-25: rgba(255, 255, 255, 0.25);
 // blur
 $backdrop-filter-blur: blur(5px);
 
-
 // padding
 $padding-vertical: 80px;
 $padding-h: 16px;
+
+// breakpoints
+$bp-x-small: 600px;
+$bp-small: 960px;
+$bp-medium: 1264px;
