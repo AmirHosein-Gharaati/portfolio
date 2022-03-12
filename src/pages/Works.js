@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import workData from "../data/data.json";
+import { changeTitle } from "../helper/title";
 
-const Works = () => {
+const Works = ({title}) => {
+  changeTitle(title);
   const data = workData;
 
   return (
