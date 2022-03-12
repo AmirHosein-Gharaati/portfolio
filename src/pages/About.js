@@ -77,7 +77,7 @@ const About = ({ title }) => {
                   <div className="timeline__item">
                     <span className="timeline__item__date">2020 - Present</span>
                     <h4>
-                      Bachelor of Science - <span>Shiraz university</span>
+                      Bachelor of Science | <span>Shiraz university</span>
                     </h4>
                     <p>
                       Shiraz University is one of the top universities in iran.
@@ -88,7 +88,7 @@ const About = ({ title }) => {
                   <div className="timeline__item">
                     <span className="timeline__item__date">2018 - 2020</span>
                     <h4>
-                      Diploma in Mathematics-Physics -{" "}
+                      Diploma in Mathematics-Physics |{" "}
                       <span>Shahid Dastgheib</span>
                     </h4>
                     <p>
