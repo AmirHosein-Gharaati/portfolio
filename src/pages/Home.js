@@ -16,7 +16,7 @@ const Home = () => {
                 More About Me
               </Link>
               <Link className="btn" to="/works">
-                Portfolio
+                Works
               </Link>
             </div>
             <div className="home__img">
