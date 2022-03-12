@@ -72,6 +72,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
+
+        &__close {
+          z-index: 2;
+        }
 
         svg {
           width: 25px;
@@ -86,9 +91,10 @@
         height: 100vh;
         background-color: $white-alpha-80;
         transition: right 0.2s ease;
+        padding: 0 $padding-h;
 
         ul {
-          margin-top: $padding-h*2;
+          margin-top: $padding-h * 5;
           height: 100%;
           width: 100%;
           display: flex;
@@ -101,7 +107,7 @@
           }
         }
       }
-      
+
       &__open {
         right: 0 !important;
       }

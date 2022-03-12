@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { faHamburger, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
     return classes;
   };
 
-  const getNavIconClasses = () => {
+  const getNavItemsClasses = () => {
     let classes = "nav__items ";
     if (navIsOpen) classes += " nav__open ";
     return classes;
@@ -28,10 +28,13 @@ const Navbar = () => {
     <header className="navbar">
       <nav className="nav">
         <div className="nav__logo">AG</div>
-        <div className="nav__icon" onClick={() => setNavIsOpen(!navIsOpen)}>
-          <FontAwesomeIcon icon={faHamburger} />
+        <div
+          className={navIsOpen ? "nav__icon nav__icon__close" : "nav__icon"}
+          onClick={() => setNavIsOpen(!navIsOpen)}
+        >
+          <FontAwesomeIcon icon={navIsOpen ? faXmark : faHamburger} />
         </div>
-        <div className={getNavIconClasses()}>
+        <div className={getNavItemsClasses()}>
           <ul>
             <li>
               <Link className={getClasses("/")} to="/">
