@@ -7,16 +7,16 @@ import Navbar from "./components/Navbar";
 import BgCircles from "./components/BgCircles";
 import PageLoader from "./components/PageLoader";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    document.onreadystatechange = () => {
-      setIsLoading(false);
-    };
-  });
+  document.onreadystatechange = () => {
+    if (document.readyState === "complete") setIsLoading(false);
+    else setIsLoading(true);
+  };
+
 
   return (
     <div className="main">
