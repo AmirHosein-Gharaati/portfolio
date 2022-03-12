@@ -5,7 +5,7 @@
         "title": "Turk Cryptourrency Exchange Front-end",
         "text": "## Overview\n\nI Worked as a member of the front-end team for Turk Cryptocurrency website. Designed and developed UIs and some logic and API calls to backend. We used Vue.js framework and Typescript in this project. Although this was my first experience in team development, but I learnd different things about frontend and technologies.\n\n## API calls\n\nWe used repository pattern, which makes API calls easier. Also this is a big challenge that we need to develop the frontend without interfering much with backend. This pattern made this easier to create fake client and mock data to do our job without stopping for backend team.\n\n## TypeScript\n\nCoding in TypeScript language is very important. TypeScript gave us a big advantage for setting the types of variables, parameters and interfaces to develop faster and make sure our code runs correctly. I learned the basics of TypeScript in this project.",
         "metadata": {
-            "Created": "Mar 12 2022",
+            "Created": "Mar 12, 2022",
             "Technologies Used": "Nuxt.js, Vue.js, TypeScript",
             "Role": "Fronted"
         }
@@ -14,9 +14,9 @@
         "id": "2",
         "imageUrl": "https://drive.google.com/uc?export=view&id=13hpeit2NN_a3mdkPOl5F3upux5qGXTE1",
         "title": "Hour of Code Website",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit rutrum libero eget lobortis. Nunc nec velit lobortis, ornare sem ut, fermentum turpis. Vivamus volutpat commodo lectus id sagittis. Pellentesque sit amet auctor ex. Integer ultricies felis ut sem rutrum viverra. Mauris a massa sit amet tortor tincidunt vehicula. Nunc elementum nec ligula et tristique. Etiam at fringilla dolor. Aliquam sed venenatis ex. Nam arcu arcu, vehicula vel libero accumsan, iaculis rhoncus nisi. Donec at neque felis. Sed vehicula dui sed tempor placerat.",
+        "text": "## Overview\n\nHOC is an all-day event held by computer engineering students at Shiraz University to familiarize high school students with coding. However, the event was held online due to COVID-19.\n\nI designed the UI/UX of the website with Adobe XD software. That was my first experience in designing UI/UX. Special thanks to Mr. Cena Saeedi for teaching and helping me in this project.\n\n## More Images\n![](https://drive.google.com/uc?export=view&id=1xF64iPWOADyaiFZlnDq4SB7rBb5z9CzC)\n![](https://drive.google.com/uc?export=view&id=1XXVGdo1dJxnoKa7Q63scO53Ifdhxmqm0)\n![](https://drive.google.com/uc?export=view&id=19pguk4PgErTzA7vZ1mlRIz3Ib40ckdC1)\n![](https://drive.google.com/uc?export=view&id=1Ez_8e2QCEjM4il0y3awYmiPiiB9CLl32)\n![](https://drive.google.com/uc?export=view&id=1K0EZhDpf1miMJsd8EK_NAqvS_sczU38w)\n![](https://drive.google.com/uc?export=view&id=1v-Y7e1QrssE-JGYSnJOHCGqdm5O54s-W)\n![](https://drive.google.com/uc?export=view&id=1Dt7UR3szhLtDmZD1WSdR1MfRVHNc3XUD)\n![](https://drive.google.com/uc?export=view&id=1qXq3Kr2D-8rAKoDAqzCHSRuMh8Hgh4b1)\n",
         "metadata": {
-            "Created": "Mar 12 2022",
+            "Created": "Mar 12, 2022",
             "Technologies Used": "Adobe XD",
             "Role": "UI/UX Designer"
         }
