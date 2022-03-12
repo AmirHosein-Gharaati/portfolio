@@ -132,7 +132,12 @@ const About = () => {
                 </div>
               </div>
 
-              <a href="#" className="btn">
+              <a
+                href="https://drive.google.com/file/d/1WTmP7O4shaqP0ZVCUHuFcHERulcZZTUv/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Download cv
               </a>
               <Link className="btn" to="/contact">
