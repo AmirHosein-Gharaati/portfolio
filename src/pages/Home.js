@@ -14,7 +14,10 @@ const Home = ({ title }) => {
             <div className="home__text">
               <p>Hello, I'm</p>
               <h1>Amirhosein Gharaati</h1>
-              <h2>Frontend Developer</h2>
+              <h2>
+                Computer Engineering student, Frontend developer and a
+                Competitive programmer
+              </h2>
               <Link className="btn" to="/about">
                 More About Me
               </Link>
