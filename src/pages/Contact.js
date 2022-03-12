@@ -9,6 +9,7 @@ import {
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { changeTitle } from "../helper/title";
 import { useState } from "react";
+import axios from "axios";
 
 const Contact = ({ title }) => {
   changeTitle(title);
@@ -17,6 +18,24 @@ const Contact = ({ title }) => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [text, setText] = useState("");
+
+  const [messageSent, setMessageSent] = useState(false);
+
+  const sendMessage = (e) => {
+    if (!name || !email || !subject || !text) return;
+
+    const data = {
+      name: name,
+      email: email,
+      subject: subject,
+      text: text,
+    };
+
+    axios
+      .post("/", data)
+      .then((res) => {})
+      .catch((err) => console.error(err.message));
+  };
 
   return (
     <div className="contact">
@@ -70,7 +89,11 @@ const Contact = ({ title }) => {
                       required
                     />
                   </div>
-                  <button type="submit" className="btn">
+                  <button
+                    onClick={(e) => sendMessage(e)}
+                    type="submit"
+                    className="btn"
+                  >
                     Send Message
                   </button>
                 </div>
