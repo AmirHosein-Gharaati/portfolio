@@ -126,3 +126,29 @@
     }
   }
 }
+
+@media screen and (max-width: $bp-x-small) {
+  .about {
+    &__content {
+      flex-direction: column;
+    }
+
+    &__img,
+    &__text {
+      width: 100%;
+    }
+
+    &__img {
+      margin-bottom: $padding-h;
+    }
+
+    &__tabs {
+      display: flex;
+      flex-wrap: wrap;
+
+      &__item {
+        font-size: 16px;
+      }
+    }
+  }
+}
