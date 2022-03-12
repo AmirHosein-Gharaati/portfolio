@@ -5,6 +5,12 @@
     margin: 32px 0;
   }
 
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
   &__text {
     p {
       font-size: 18px;
@@ -32,6 +38,7 @@
       border-radius: 50%;
       border: 8px solid $white-alpha-25;
       margin: auto;
+      min-width: 180px;
 
       img {
         width: 100%;
@@ -44,5 +51,44 @@
   &__img {
     width: 50%;
     padding: 15px;
+  }
+}
+
+@media screen and (max-width: $bp-x-small) {
+  .home {
+    &__content {
+      flex-direction: column;
+    }
+
+    &__img {
+      order: 1;
+      width: 100%;
+    }
+
+    &__text {
+      order: 2;
+      text-align: center;
+      width: 100%;
+
+      p {
+        font-size: 18px;
+      }
+
+      h1 {
+        font-size: 32px;
+        text-transform: capitalize;
+      }
+
+      h2 {
+        font-size: 24px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin: 0 0 30px;
+      }
+
+      .btn {
+        margin: $padding-h/2 0;
+      }
+    }
   }
 }

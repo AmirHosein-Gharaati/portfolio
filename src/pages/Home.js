@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <section className="home__section align-center">
         <div className="container">
-          <div className="row align-center">
+          <div className="home__content">
             <div className="home__text">
               <p>Hello, I'm</p>
               <h1>Amirhosein Gharaati</h1>
