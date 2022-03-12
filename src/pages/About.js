@@ -94,8 +94,8 @@ const About = ({ title }) => {
                     </h4>
                     <p>
                       I chose Mathematics-Physics field to continue my study in
-                      Computer Engineering. Studying in Shahid Dastgheib
-                      school was a great experience to learn and improve.
+                      Computer Engineering. Studying in Shahid Dastgheib school
+                      was a great experience to learn and improve.
                     </p>
                   </div>
                 </div>
@@ -105,15 +105,56 @@ const About = ({ title }) => {
               <div className={getClassTab("experience")}>
                 <div className="timeline">
                   <div className="timeline__item">
-                    <span className="timeline__item__date">2013 - 2016</span>
-                    <h4>
-                      TurkCrypto - <span>Shiraz university</span>
-                    </h4>
+                    <span className="timeline__item__date">Mar 2022</span>
+                    <h4>Twitter Homepage</h4>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters
+                      Twitter homepage clone with React.js framework. I used
+                      Scss for styling and some static data to render the
+                      components.
+                    </p>
+                    <p className="bold">
+                      Repo:{" "}
+                      <a
+                        href="https://github.com/AmirHosein-Gharaati/Twitter-Home"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Twitter-Home
+                      </a>
+                    </p>
+                  </div>
+
+                  <div className="timeline__item">
+                    <span className="timeline__item__date">
+                      Sep 2021 – Dec 2021
+                    </span>
+                    <h4>Turk Cryptourrency Exchange Front-end</h4>
+                    <p>
+                      I Worked as a member of the front-end team for Turk
+                      Cryptocurrency website. Designed and developed UIs and
+                      some logic and API calls to backend. We used Vue.js
+                      framework and Typescript in this project.
+                    </p>
+                    <p className="bold">
+                      Link:{" "}
+                      <a
+                        href="https://trk.alimahdiyar.ir/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Twitter-Home
+                      </a>
+                    </p>
+                  </div>
+
+                  <div className="timeline__item">
+                    <span className="timeline__item__date">
+                      Aug 2021 – Sep 2021
+                    </span>
+                    <h4>Shiraz University Semester Web Application</h4>
+                    <p>
+                      A front-end website which manages crawled data from Shiraz
+                      University term semester website.
                     </p>
                   </div>
                 </div>
