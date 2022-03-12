@@ -68,15 +68,20 @@
 @media screen and (max-width: $bp-x-small) {
   .navbar {
     .nav {
-      background-color: green;
-
       &__icon {
-        display: inline;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          width: 25px;
+          height: 25px;
+        }
       }
 
       &__items {
         position: fixed;
-        right: 0;
+        right: -300px;
         top: 0;
         height: 100vh;
         background-color: $white-alpha-40;
@@ -98,7 +103,7 @@
       }
       
       &__open {
-        right: -200px !important;
+        right: 0 !important;
       }
     }
   }
