@@ -7,8 +7,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { changeTitle } from "../helper/title";
 
-const Contact = () => {
+const Contact = ({ title }) => {
+  changeTitle(title);
+
   return (
     <div className="contact">
       <section className="contact__section">
