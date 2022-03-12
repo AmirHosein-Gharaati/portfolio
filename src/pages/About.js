@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { changeTitle } from "../helper/title";
 
-const About = () => {
+const About = ({ title }) => {
+  changeTitle(title);
   const image = require("../assets/images/me.png");
 
   const [currentActive, setCurrentActive] = useState("education");
