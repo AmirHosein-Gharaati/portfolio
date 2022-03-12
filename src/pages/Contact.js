@@ -3,6 +3,7 @@ import {
   faLinkedin,
   faGithub,
   faTwitter,
+  faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
@@ -103,6 +104,14 @@ const Contact = () => {
                     className="contact__social-links__item"
                   >
                     <FontAwesomeIcon icon={faMailBulk} />
+                  </a>
+                  <a
+                    href="https://t.me/AG_1380"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="contact__social-links__item"
+                  >
+                    <FontAwesomeIcon icon={faTelegram} />
                   </a>
                 </div>
               </div>
