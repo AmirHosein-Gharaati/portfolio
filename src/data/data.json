@@ -31,5 +31,16 @@
             "Technologies": "Vue.js, Vuetify.js",
             "Role": "Frontend"
         }
+    },
+    {
+        "id": "4",
+        "imageUrl": "sess-semester.jpg",
+        "title": "Sess semester web application",
+        "text": "## Overview\n\nA front-end website that manages crawled data from Shiraz University term semester website. This project started because the Computer Science Association of Shiraz University held a contest to visualize data. I started learning Vue.js framework then. The result was I won the contest but continued working more on improving this web application.\n\n### Links\n[Github](https://github.com/AmirHosein-Gharaati/sess-semester) - [Live](https://sess-semester.vercel.app/)",
+        "metadata": {
+            "Created": "Aug - Sep 2021",
+            "Technologies": "Vue.js, Vuetify.js",
+            "Role": "Frontend"
+        }
     }
 ]
