@@ -142,7 +142,7 @@ const About = ({ title }) => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Twitter-Home
+                        trk.alimahdiyar.ir
                       </a>
                     </p>
                   </div>
