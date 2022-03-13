@@ -18,7 +18,10 @@ const Project = () => {
         <div className="project__content">
           <div className="project__header">
             <div className="project__thumbnail">
-              <img src={project[0].imageUrl} alt="" />
+              <img
+                src={require("../assets/images/" + project[0].imageUrl)}
+                alt=""
+              />
             </div>
             <h3>{project[0].title}</h3>
           </div>
