@@ -39,11 +39,17 @@
 
   &__body {
     .description {
-      margin-bottom: 20px;
+      h1,
+      h2,
+      h3,
+      img {
+        margin-top: 20px;
+      }
     }
   }
 
   &__general {
+    margin-top: 20px;
     li {
       margin-bottom: 10px;
       font-weight: 500;
