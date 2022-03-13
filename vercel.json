@@ -1,6 +1,6 @@
 {
   "version": 1,
   "rewrites": [
-    { "source": "/", "destination": "https://amirhosein-gharaati.herokuapp.com/" }
+    { "source": "/:match*", "destination": "https://amirhosein-gharaati.herokuapp.com/:match*" }
   ]
 }
