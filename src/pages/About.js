@@ -48,12 +48,15 @@ const About = ({ title }) => {
               <div className="about__skills">
                 <div className="about__skills__item">html</div>
                 <div className="about__skills__item">CSS</div>
+                <div className="about__skills__item">Scss</div>
                 <div className="about__skills__item">JavaScript</div>
                 <div className="about__skills__item">TypeScript</div>
                 <div className="about__skills__item">Vue</div>
+                <div className="about__skills__item">Nuxt</div>
                 <div className="about__skills__item">Vuetify</div>
                 <div className="about__skills__item">Vuex</div>
                 <div className="about__skills__item">React</div>
+                <div className="about__skills__item">Git</div>
               </div>
 
               <div className="about__tabs">
