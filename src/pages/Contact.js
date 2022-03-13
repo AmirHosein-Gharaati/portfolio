@@ -36,7 +36,7 @@ const Contact = ({ title }) => {
     setMessageStatus("Pending...");
 
     axios
-      .post("/", data)
+      .post("https://amirhosein-gharaati.herokuapp.com/", data)
       .then((res) => {
         setMessageStatus("Sent Successfully");
       })
