@@ -18,8 +18,8 @@
   ],
   "rewrites": [
     {
-      "source": "/*",
-      "destination": "https://amirhosein-gharaati.herokuapp.com/*"
+      "source": "/",
+      "destination": "https://amirhosein-gharaati.herokuapp.com/"
     }
   ]
 }
