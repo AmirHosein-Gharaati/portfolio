@@ -40,9 +40,9 @@ const About = ({ title }) => {
                 Hello. I'm Amirhosein Gharaati. A frontend developer with 1 year
                 of experience who is trying to learn different things about
                 Computer Science. I always like to encounter different
-                challenges and solve the problems in efficient way. Also I have
-                some experience in competitive programming which helps think and
-                solve real world problems in a better way.
+                challenges and efficiently solve problems. Also, I have some
+                experience in competitive programming which helps me think and
+                solve real-world problems in a better way.
               </p>
               <h3>Skills</h3>
               <div className="about__skills">
@@ -81,9 +81,9 @@ const About = ({ title }) => {
                       <span>Shiraz university</span>
                     </h4>
                     <p>
-                      Shiraz University is one of the top universities in iran.
+                      Shiraz University is one of the top universities in Iran.
                       I am currently studying Computer Engineering. My current
-                      GPA is 17.11/20 which is among top 5 students.
+                      GPA is 17.11/20 which is among the top 5 students.
                     </p>
                   </div>
                   <div className="timeline__item">
@@ -93,9 +93,9 @@ const About = ({ title }) => {
                       <span>Shahid Dastgheib</span>
                     </h4>
                     <p>
-                      I chose Mathematics-Physics field to continue my study in
-                      Computer Engineering. Studying in Shahid Dastgheib school
-                      was a great experience to learn and improve.
+                      I chose the Mathematics-Physics field to continue my study
+                      in Computer Engineering. Studying in Shahid Dastgheib
+                      school was a great experience to learn and improve.
                     </p>
                   </div>
                 </div>
