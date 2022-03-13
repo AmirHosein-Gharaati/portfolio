@@ -59,6 +59,20 @@ const About = ({ title }) => {
                 <div className="about__skills__item">Git</div>
               </div>
 
+              <div className="about__buttons">
+                <a
+                  href="https://drive.google.com/file/d/1WTmP7O4shaqP0ZVCUHuFcHERulcZZTUv/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn"
+                >
+                  Download cv
+                </a>
+                <Link className="btn" to="/contact">
+                  Contact me
+                </Link>
+              </div>
+
               <div className="about__tabs">
                 <button
                   type="button"
@@ -214,18 +228,6 @@ const About = ({ title }) => {
                   </div>
                 </div>
               </div>
-
-              <a
-                href="https://drive.google.com/file/d/1WTmP7O4shaqP0ZVCUHuFcHERulcZZTUv/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-                className="btn"
-              >
-                Download cv
-              </a>
-              <Link className="btn" to="/contact">
-                Contact me
-              </Link>
             </div>
           </div>
         </div>

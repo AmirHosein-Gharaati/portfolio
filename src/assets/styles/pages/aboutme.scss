@@ -66,6 +66,13 @@
     }
   }
 
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: $padding-h 0;
+  }
+
   &__tabs {
     margin-top: 20px;
 
@@ -140,6 +147,10 @@
 
     &__img {
       margin-bottom: $padding-h;
+    }
+
+    &__buttons {
+      flex-direction: column;
     }
 
     &__tabs {
