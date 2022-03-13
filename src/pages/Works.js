@@ -19,7 +19,8 @@ const Works = ({ title }) => {
             return (
               <div className="works__item" key={work.id}>
                 <div className="works__item__thumbnail">
-                  <img src={work.imageUrl} alt="" />
+                  {console.log("../assets/images/"+ work.imageUrl)}
+                  <img src={require("../assets/images/"+ work.imageUrl)} alt="" />
                 </div>
                 <h3 className="works__item__title">{work.title}</h3>
                 {work.metadata.Technologies && (

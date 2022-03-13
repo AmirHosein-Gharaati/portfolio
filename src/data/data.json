@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1GzOL8lweWTk0Cv6olgARrEXznZW3ivTa",
+        "imageUrl": "turk.png",
         "title": "Turk Cryptourrency Exchange Front-end",
         "text": "## Overview\n\nI Worked as a member of the front-end team for Turk Cryptocurrency website. Designed and developed UIs and some logic and API calls to backend. We used Vue.js framework and Typescript in this project. Although this was my first experience in team development, but I learnd different things about frontend and technologies.\n\n## API calls\n\nWe used repository pattern, which makes API calls easier. Also this is a big challenge that we need to develop the frontend without interfering much with backend. This pattern made this easier to create fake client and mock data to do our job without stopping for backend team.\n\n## TypeScript\n\nCoding in TypeScript language is very important. TypeScript gave us a big advantage for setting the types of variables, parameters and interfaces to develop faster and make sure our code runs correctly. I learned the basics of TypeScript in this project.\n\n\n### Links\n[Live](https://trk.alimahdiyar.ir/)",
         "metadata": {
@@ -12,7 +12,7 @@
     },
     {
         "id": "2",
-        "imageUrl": "https://drive.google.com/uc?export=view&id=13hpeit2NN_a3mdkPOl5F3upux5qGXTE1",
+        "imageUrl": "hoc.png",
         "title": "Hour of Code Website",
         "text": "## Overview\n\nHOC is an all-day event held by computer engineering students at Shiraz University to familiarize high school students with coding. However, the event was held online due to COVID-19.\n\nI designed the UI/UX of the website with Adobe XD software. That was my first experience in designing UI/UX. Special thanks to Mr. Cena Saeedi for teaching and helping me in this project.\n\n## More Images\n![](https://drive.google.com/uc?export=view&id=1xF64iPWOADyaiFZlnDq4SB7rBb5z9CzC)\n![](https://drive.google.com/uc?export=view&id=1XXVGdo1dJxnoKa7Q63scO53Ifdhxmqm0)\n![](https://drive.google.com/uc?export=view&id=19pguk4PgErTzA7vZ1mlRIz3Ib40ckdC1)\n![](https://drive.google.com/uc?export=view&id=1Ez_8e2QCEjM4il0y3awYmiPiiB9CLl32)\n![](https://drive.google.com/uc?export=view&id=1K0EZhDpf1miMJsd8EK_NAqvS_sczU38w)\n![](https://drive.google.com/uc?export=view&id=1v-Y7e1QrssE-JGYSnJOHCGqdm5O54s-W)\n![](https://drive.google.com/uc?export=view&id=1Dt7UR3szhLtDmZD1WSdR1MfRVHNc3XUD)\n![](https://drive.google.com/uc?export=view&id=1qXq3Kr2D-8rAKoDAqzCHSRuMh8Hgh4b1)\n\n### Links\n[Live](https://hocshirazu.ir)",
         "metadata": {
@@ -23,7 +23,7 @@
     },
     {
         "id": "3",
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1V_6oK6T0q2MLyhLOH8c2PI0ebGft6cVM",
+        "imageUrl": "sess-semester.jpg",
         "title": "Sess semester web application",
         "text": "## Overview\n\nA front-end website that manages crawled data from Shiraz University term semester website. This project started because the Computer Science Association of Shiraz University held a contest to visualize data. I started learning Vue.js framework then. The result was I won the contest but continued working more on improving this web application.\n\n### Links\n[Github](https://github.com/AmirHosein-Gharaati/sess-semester) - [Live](https://sess-semester.vercel.app/)",
         "metadata": {
