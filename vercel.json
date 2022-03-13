@@ -19,7 +19,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "https://amirhosein-gharaati.herokuapp.com/"
+      "destination": "https://amirhosein-gharaati.herokuapp.com"
     }
   ]
 }
