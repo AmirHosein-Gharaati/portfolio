@@ -64,5 +64,15 @@
             "Technologies": "React.js",
             "Role": "Frontend"
         }
+    },
+    {
+        "id": "7",
+        "imageUrl": "kattis.png",
+        "title": "Competitive Programming",
+        "text": "## Overview\nSolving problems is a real world challenge which we should deal with it. Algorithms are one of the most important topics in programming. I decided to take Quick Progamming course and learn different algorithms and solve problems. I attended some competitive programmings such as ICPC and Quera contests. Our team ranked 16 as team 'CoWeed' in ICPC Asia Regional Contest.\n\nI'm still learning and solving problems. By the way this a great hobby for me ;)",
+        "metadata": {
+            "Created": "Jan 2021 - Present",
+            "Technologies": "C, CPP, Python"
+        }
     }
 ]
