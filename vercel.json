@@ -1,6 +1,6 @@
 {
   "version": 1,
   "routes": [
-    { "src": "/.*", "dest": "https://amirhosein-gharaati.herokuapp.com/" }
+    { "src": "/", "dest": "https://amirhosein-gharaati.herokuapp.com/" }
   ]
 }
