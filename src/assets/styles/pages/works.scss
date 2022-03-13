@@ -29,6 +29,11 @@
     justify-content: space-between;
     text-align: center;
 
+    &:hover {
+      background-color: $white-alpha-40;
+      border-radius: 10px;
+    }
+
     h3 {
       font-size: 20px;
       text-transform: capitalize;

@@ -10,7 +10,7 @@ const Works = ({ title }) => {
   const options = {
     scale: 1.1,
     speed: 1000,
-    max: 20,
+    max: 25,
   };
 
   return (
