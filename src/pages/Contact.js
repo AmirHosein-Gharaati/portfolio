@@ -39,13 +39,15 @@ const Contact = ({ title }) => {
       .post("/", data)
       .then((res) => {
         setMessageStatus("Sent Successfully");
-        setTimeout(() => {
-          setMessageStatus(null);
-        }, 3000);
       })
       .catch((err) => {
         setMessageStatus("Failed");
         console.error(err.message);
+      })
+      .finally(() => {
+        setTimeout(() => {
+          setMessageStatus(null);
+        }, 3000);
       });
   };
 
