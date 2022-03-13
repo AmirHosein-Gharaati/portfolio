@@ -42,5 +42,16 @@
             "Technologies": "Adobe XD",
             "Role": "UI/UX Designer"
         }
+    },
+    {
+        "id": "5",
+        "imageUrl": "2048.png",
+        "title": "2048",
+        "text": "## Overview\nA clone of 2048 game which I developed through watching a video on YouTube. The main purpose of this project was learning basic usage of react framework and refactoring code to modify and add features as well.\n\n## Link\n[Github](https://github.com/AmirHosein-Gharaati/2048) - [Live](http://2048-lime.vercel.app)",
+        "metadata": {
+            "Created": "Feb 2022",
+            "Technologies": "React.js",
+            "Role": "Frontend"
+        }
     }
 ]
