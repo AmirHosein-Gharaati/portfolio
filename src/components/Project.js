@@ -23,7 +23,7 @@ const Project = () => {
                 alt=""
               />
             </div>
-            <h3>{project[0].title}</h3>
+            <h3 className="project__title">{project[0].title}</h3>
           </div>
           <div className="project__body">
             <div className="description">
