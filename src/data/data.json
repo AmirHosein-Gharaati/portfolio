@@ -53,5 +53,16 @@
             "Technologies": "React.js",
             "Role": "Frontend"
         }
+    },
+    {
+        "id": "6",
+        "imageUrl": "twitter.png",
+        "title": "Twitter Homepage",
+        "text": "## Overview\nTwitter homepage clone with React.js framework. I used Scss for\nstyling and some static data to render the components.\n\nSome features built in this project, such as simple loading component, adding a local post to timeline, search by name or id, and responsive design.\n\n## Links\n[Github](https://github.com/AmirHosein-Gharaati/Twitter-Home) - [Live](https://twitter-home-delta.vercel.app/)",
+        "metadata": {
+            "Created": "Mar 2022",
+            "Technologies": "React.js",
+            "Role": "Frontend"
+        }
     }
 ]
