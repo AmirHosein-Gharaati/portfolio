@@ -34,13 +34,13 @@
     },
     {
         "id": "4",
-        "imageUrl": "sess-semester.jpg",
-        "title": "Sess semester web application",
-        "text": "## Overview\n\nA front-end website that manages crawled data from Shiraz University term semester website. This project started because the Computer Science Association of Shiraz University held a contest to visualize data. I started learning Vue.js framework then. The result was I won the contest but continued working more on improving this web application.\n\n### Links\n[Github](https://github.com/AmirHosein-Gharaati/sess-semester) - [Live](https://sess-semester.vercel.app/)",
+        "imageUrl": "fifteen.png",
+        "title": "Hour of Code Game",
+        "text": "# Overview\n\nThis is a 2-Player game which has 3 modes:\n\n* Human vs Human\n* Human vs Agent\n* Agent vs Agent\n  \nA player has to draw or exchange cards from the board cards so that the sum of his/her 3 cards would be 15.\n\nNo one can have more than 3 cards in his/her hand, and a player must draw or exchange a card.\n\nThe main purpose of this game is that students have to write an agent with Python language, and compete with each other and brawl !\n\nThis game is developed by [Amirreza Ektesabi](https://github.com/ar-ekt/) (Game Design) and [Amirhosein Gharaati](https://github.com/AmirHosein-Gharaati/) (UI/UX design)\n\nSpecial thanks to [ACM-ICPC association of Shiraz University](http://acm.shirazu.ac.ir/) for holding this ceremony\n\n### Screen Shots\n\n![Alt](https://raw.githubusercontent.com/AmirHosein-Gharaati/HOC-Game/main/ScreenShots/1.png)\n\n![Alt](https://raw.githubusercontent.com/AmirHosein-Gharaati/HOC-Game/main/ScreenShots/2.png)\n\n![Alt](https://raw.githubusercontent.com/AmirHosein-Gharaati/HOC-Game/main/ScreenShots/3.png)\n\n![Alt](https://raw.githubusercontent.com/AmirHosein-Gharaati/HOC-Game/main/ScreenShots/4.png)\n\n![Alt](https://raw.githubusercontent.com/AmirHosein-Gharaati/HOC-Game/main/ScreenShots/5.png)",
         "metadata": {
-            "Created": "Aug - Sep 2021",
-            "Technologies": "Vue.js, Vuetify.js",
-            "Role": "Frontend"
+            "Created": "Sep 2021",
+            "Technologies": "Adobe XD",
+            "Role": "UI/UX Designer"
         }
     }
 ]
