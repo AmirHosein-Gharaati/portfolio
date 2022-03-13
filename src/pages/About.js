@@ -51,6 +51,8 @@ const About = ({ title }) => {
                 <div className="about__skills__item">JavaScript</div>
                 <div className="about__skills__item">TypeScript</div>
                 <div className="about__skills__item">Vue</div>
+                <div className="about__skills__item">Vuetify</div>
+                <div className="about__skills__item">Vuex</div>
                 <div className="about__skills__item">React</div>
               </div>
 
