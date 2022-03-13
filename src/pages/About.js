@@ -6,7 +6,7 @@ const About = ({ title }) => {
   changeTitle(title);
   const image = require("../assets/images/me.png");
 
-  const [currentActive, setCurrentActive] = useState("education");
+  const [currentActive, setCurrentActive] = useState("experience");
 
   const getClassTab = (tabName) => {
     let classes = "about__tabs__content ";
@@ -62,17 +62,17 @@ const About = ({ title }) => {
               <div className="about__tabs">
                 <button
                   type="button"
-                  className={getButtonClass("education")}
-                  onClick={() => setCurrentActive("education")}
-                >
-                  education
-                </button>
-                <button
-                  type="button"
                   className={getButtonClass("experience")}
                   onClick={() => setCurrentActive("experience")}
                 >
                   experience
+                </button>
+                <button
+                  type="button"
+                  className={getButtonClass("education")}
+                  onClick={() => setCurrentActive("education")}
+                >
+                  education
                 </button>
               </div>
 
