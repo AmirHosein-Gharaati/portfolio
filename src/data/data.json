@@ -74,5 +74,15 @@
             "Created": "Jan 2021 - Present",
             "Technologies": "C, CPP, Python"
         }
+    },
+    {
+        "id": "8",
+        "imageUrl": "os-project.png",
+        "title": "Operating Systems Course Project",
+        "text": "# Operating Systems - CSE Department\n\n## Final Project\n\nThe goal in this project is to implement some CPU time scheduling algorithms.\n\n## File Processes\n\nInput of the program is a CSV file including: `process_id`, `arrival_time`, `cpu_time1`, `io_time`, `cpu_time2`\n\n## Algorithms implementation\n\nFour algorithms implemented in this project:\n\n1. First Come, First Serve(FCFS)\n\n2. Round Robin(RR), with time quantum(5ms)\n\n3. Shortest Job First(SFJ)\n\n4. Multilevel Feedback Queue(MLFQ):\n\n    First queue: RR Time Quantum 8 ms\n\n    Second queue: RR with Time Quantum 16 ms\n\n    Third queue: FCFS\n\n\n## Processes\n\nFor every process, some informations should be genereted and shown in output including: `Response Time`, `Waiting Time`, `Turnaround Time`, `Start and Stop Time`\n\n## Final Algorithm Resulsts\n\nAfter executing every algorithm, some parameters need to be shown inlcuding: `Total Time and Idle Time`, `Average Waiting Time`, `Average Response Time`, `Average Turnaround Time`, `CPU Utilization`, `Throughput`",
+        "metadata": {
+            "Created": "Jan 2022",
+            "Technologies": "Python"
+        }
     }
 ]
