@@ -84,5 +84,15 @@
             "Created": "Jan 2022",
             "Technologies": "Python"
         }
+    },
+    {
+        "id": "9",
+        "imageUrl": "datastructure.png",
+        "title": "DataStructure Course Project",
+        "text": "# DataStructure-Project\n\nThe goal of this project is to develop a system that maintains and processes patients’\ninformation. For each patient we have a unique patient ID which is a positive integer (between 0\nand 10^9), and a health measure which is an integer (between -10^9 and 10^9).  \nDesign and\nimplement a data structure that supports the following queries:  \n* *Add X Y*  \n  This operation inserts a patient with patient ID X and health measure Y to the\ndata structure. This operation is called upon the arrival of a patient.   \n* *Serve First*  \n  This operation serves the patient in the data structure that arrived the\nearliest, and removes her from the dataset.  \n* *Serve Sickest*  \n  This operation serves the patient in the data structure that has the lowest\nhealth measure and removes her from the dataset.  \n* *Update X Y*  \n  This operation updates the health measure of the patient X to value Y.  \n  \nThe running time of each operation should be either O(log(n)) in the worst case, or O(1) in\nexpectation. Note that you are supposed to implement any data structure that you need\nyourself. You are not allowed to use data structures from the standard library of your\nprogramming language or from the internet.  \nThe input is a list of queries, with one query per line. Whenever a patient is served (either\nthrough Serve First or Serve Sickest), write the patient’s ID followed by a space and the\npatient's health measure at the serving time, and move to the next line.\nThe queries are set such that the number of patients in the data structure is always less than or\nequal to 10^6. However, the total number of patients that are inserted to the data structure and\nserved is not limited.  \n\n## Links\n[Github](https://github.com/AmirHosein-Gharaati/DataStructure-Project)",
+        "metadata": {
+            "Created": "Jun 2021 - Jul 2021",
+            "Technologies": "CPP"
+        }
     }
 ]
