@@ -3,10 +3,11 @@ import About from "./pages/About";
 import Works from "./pages/Works";
 import Project from "./components/Project";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import BgCircles from "./components/BgCircles";
 import PageLoader from "./components/PageLoader";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useState } from "react";
 
 function App() {
@@ -16,7 +17,6 @@ function App() {
     if (document.readyState === "complete") setIsLoading(false);
     else setIsLoading(true);
   };
-
 
   return (
     <div className="main">
@@ -31,6 +31,8 @@ function App() {
             <Route path="/contact" element={<Contact title="Contact" />} />
             <Route path="/works" element={<Works title="Works" />} />
             <Route path="/works/:id" element={<Project />} />
+            <Route path="/404" element={<NotFound />} />
+            <Route path="*" element={<Navigate to="/404" replace />} />
           </Routes>
         </div>
       </BrowserRouter>

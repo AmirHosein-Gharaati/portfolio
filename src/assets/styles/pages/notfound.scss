@@ -1,0 +1,26 @@
+.notfound {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $white-alpha-25;
+    border: 1px solid $white-alpha-40;
+    border-radius: 10px;
+    backdrop-filter: $backdrop-filter-blur;
+  }
+}
+
+@media screen and (max-width: $bp-x-small) {
+  .notfound {
+    &__content {
+      width: 100%;
+    }
+  }
+}
