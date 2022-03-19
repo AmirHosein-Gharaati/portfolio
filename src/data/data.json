@@ -94,5 +94,15 @@
             "Created": "Jun 2021 - Jul 2021",
             "Technologies": "CPP"
         }
+    },
+    {
+        "id": "10",
+        "imageUrl": "flutter.png",
+        "title": "Calculator",
+        "text": "## Overview\nMy first flutter experience. I built a calculator which can handle multiple expressions.\n\n## Links\n\n[Github](https://github.com/AmirHosein-Gharaati/Flutter-Calculator)",
+        "metadata": {
+            "Created": "Sep 2020",
+            "Technologies": "Flutter"
+        }
     }
 ]
