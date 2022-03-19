@@ -104,5 +104,16 @@
             "Created": "Sep 2020",
             "Technologies": "Flutter"
         }
+    },
+    {
+        "id": "11",
+        "imageUrl": "chickchick.png",
+        "title": "ChickChickGroup Telegram Bot",
+        "text": "## Overview\n\nA Telegram robot with which you can attach buttons to a post\nand share it with others.\n\n## Links\n[Live](https://t.me/chickchickgroupbot)",
+        "metadata": {
+            "Created": "Oct 2021",
+            "Technologies": "Pyrogram",
+            "Role": "Developer"
+        }
     }
 ]
