@@ -132,6 +132,19 @@ const About = ({ title }) => {
               <div className={getClassTab("experience")}>
                 <div className="timeline">
                   <div className="timeline__item">
+                    <span className="timeline__item__date">Apr 2022 - Present</span>
+                    <h4>Frontend Developer at System Group</h4>
+                    <p>
+                      System Group is the most reputable software development
+                      company in Iran, providing reliable and efficient software
+                      applications to a variety of business and industry
+                      sectors. It is on the forefront of the software industry
+                      in Iran with over 41,000 customers and more than 1,300
+                      associates.
+                    </p>
+                  </div>
+
+                  <div className="timeline__item">
                     <span className="timeline__item__date">Mar 2022</span>
                     <h4>Twitter Homepage</h4>
                     <p>
