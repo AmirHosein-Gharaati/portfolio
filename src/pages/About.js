@@ -5,6 +5,18 @@ import { changeTitle } from "../helper/title";
 const About = ({ title }) => {
   changeTitle(title);
   const image = require("../assets/images/me.png");
+  const skills = [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JavaScript",
+    "TypeScript",
+    "Vue",
+    "React",
+    "Angular",
+    "Git",
+    "Node.js",
+  ];
 
   const [currentActive, setCurrentActive] = useState("experience");
 
@@ -46,17 +58,13 @@ const About = ({ title }) => {
               </p>
               <h3>Skills</h3>
               <div className="about__skills">
-                <div className="about__skills__item">html</div>
-                <div className="about__skills__item">CSS</div>
-                <div className="about__skills__item">Scss</div>
-                <div className="about__skills__item">JavaScript</div>
-                <div className="about__skills__item">TypeScript</div>
-                <div className="about__skills__item">Vue</div>
-                <div className="about__skills__item">Nuxt</div>
-                <div className="about__skills__item">Vuetify</div>
-                <div className="about__skills__item">Vuex</div>
-                <div className="about__skills__item">React</div>
-                <div className="about__skills__item">Git</div>
+                {skills.map((item, index) => {
+                  return (
+                    <div key={index} className="about__skills__item">
+                      {item}
+                    </div>
+                  );
+                })}
               </div>
 
               <div className="about__buttons">
