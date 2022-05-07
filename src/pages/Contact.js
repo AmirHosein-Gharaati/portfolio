@@ -129,7 +129,7 @@ const Contact = ({ title }) => {
                 <h3>Follow Me</h3>
                 <div className="contact__social-links">
                   <a
-                    href="https://www.linkedin.com/in/amirhosein-gharaati-6b39781b7/"
+                    href="https://www.linkedin.com/in/amirhosein-gharaati/"
                     target="_blank"
                     rel="noreferrer"
                     className="contact__social-links__item"
