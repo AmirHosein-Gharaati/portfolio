@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c5aff7cd.css",
+    "main.js": "/portfolio/static/js/main.12fd22d0.js",
+    "static/media/hoc.png": "/portfolio/static/media/hoc.e1ff709abd86a6c48729.png",
+    "static/media/me.png": "/portfolio/static/media/me.cd1bf7de47a8299e0e77.png",
+    "static/media/turk.png": "/portfolio/static/media/turk.45f5dfd6a8d67eb048f5.png",
+    "static/media/twitter.png": "/portfolio/static/media/twitter.9067e5b0940e42b12642.png",
+    "static/media/kattis.png": "/portfolio/static/media/kattis.69137de0b4e6e87d037c.png",
+    "static/media/fifteen.png": "/portfolio/static/media/fifteen.29f294d2a3d18d5b2581.png",
+    "static/media/chickchick.png": "/portfolio/static/media/chickchick.1f535b6cb17ece9367a2.png",
+    "static/media/flutter.png": "/portfolio/static/media/flutter.6644298705325767e2a2.png",
+    "static/media/datastructure.png": "/portfolio/static/media/datastructure.915c8a02937012d490a1.png",
+    "static/media/2048.png": "/portfolio/static/media/2048.594ab330dc9b0d3a4931.png",
+    "static/media/sess-semester.jpg": "/portfolio/static/media/sess-semester.9f86cb7c5b6915611fd0.jpg",
+    "static/media/os-project.png": "/portfolio/static/media/os-project.4a29df4288151bf5e549.png",
+    "index.html": "/portfolio/index.html",
+    "main.c5aff7cd.css.map": "/portfolio/static/css/main.c5aff7cd.css.map",
+    "main.12fd22d0.js.map": "/portfolio/static/js/main.12fd22d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5aff7cd.css",
+    "static/js/main.12fd22d0.js"
+  ]
+}
